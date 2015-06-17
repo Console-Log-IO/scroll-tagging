@@ -1,0 +1,47 @@
+*{
+  box-sizing:border-box;
+}
+
+html, body {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+  margin:0;
+}
+
+.wrapper {
+  width:100%;
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  width: 60%;
+}
+
+.calloutText {
+  bottom: 0;
+  color: #FFF;
+  font-size: 25px;
+  height: 20px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 200px;
+}
+
+.section {
+  height: 300px;
+  position: relative;
+  width: 100%;
+}
+
+.section:nth-child(2n) {
+  background: #1A237E;
+}
+
+.section:nth-child(2n+1) {
+  background: #7986CB;
+}
